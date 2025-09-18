@@ -38,16 +38,19 @@ This project consists of:
 
 ```
 Smart-Water-Leak-Detection/
-│── app.py                        # Streamlit frontend
-│── water_leak_detection.ipynb    # ML model training & experiments
-│── random_forest_model.pkl       # Pre-trained ML model
-│── decision_tree_model.pkl
-│── logistic_regression_model.pkl
-│── svm_model.pkl
-│── location_aware_gis_leakage_dataset.csv   # dataset
-│── testing.csv #this is for batch processing test 
-│── requirements.txt               # Dependencies
-│── README.md                      # Project documentation
+│── frontend/                 # Streamlit or Flask/Django app
+│    └── app.py
+│
+│── ml_model/                 # Notebooks + model files
+│    └── water_leak_detection.ipynb
+│
+│── data/                     # Datasets
+│    ├── location_aware_gis_leakage_dataset.csv
+│    └── testing.csv
+│── requirements.txt          # Dependencies
+│── .gitignore
+│── README.md
+
 ```
 
 ---
