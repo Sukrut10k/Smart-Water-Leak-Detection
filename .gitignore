@@ -1,8 +1,3 @@
-.venv/
-__pycache__/
-*.pyc
-.env
-
 # Python
 __pycache__/
 *.pyc
@@ -20,7 +15,7 @@ venv/
 # Streamlit cache
 .streamlit/
 
-# Model files (optional - if they are large, don’t push them)
+# Model files (When you run ipynb file you get the .pkl file that you can use !!)
 *.pkl
 
 # VSCode / IDE
