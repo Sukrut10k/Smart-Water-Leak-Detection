@@ -20,7 +20,7 @@ This project consists of:
 *  **Batch Prediction** – Upload a CSV dataset for bulk leak detection with downloadable results.
 *  **Analytics & Insights** – Feature importance, model comparisons, and system insights.
 *  **AI Assistant (Groq LLaMA Model)** – Ask AI for leak trends, maintenance insights, and generate plots dynamically.
-* ℹ **About Page** – Quick overview of the system.
+*  **About Page** – Quick overview of the system.
 
 ---
 
@@ -44,7 +44,8 @@ Smart-Water-Leak-Detection/
 │── decision_tree_model.pkl
 │── logistic_regression_model.pkl
 │── svm_model.pkl
-│── location_aware_gis_leakage_dataset.csv   # Sample dataset
+│── location_aware_gis_leakage_dataset.csv   # dataset
+│── testing.csv #this is for batch processing test 
 │── requirements.txt               # Dependencies
 │── README.md                      # Project documentation
 ```
