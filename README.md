@@ -106,12 +106,12 @@ http://localhost:8501
 
  **Navigate using Sidebar Menu**:
 
-   * Predict Leakage → Input pipeline parameters & predict.
-   * What-if Analysis → Adjust sliders for simulations.
-   * Zone Map & Geo Analysis → Visualize leaks on interactive maps.
-   * Batch Prediction → Upload CSV for bulk predictions.
-   * Analytics & Insights → Explore feature importance & model comparison.
-   * AI Assistant → Ask questions and request plots.
+   * Predict Leakage Input pipeline parameters & predict.
+   * What-if Analysis Adjust sliders for simulations.
+   * Zone Map & Geo Analysis Visualize leaks on interactive maps.
+   * Batch Prediction Upload CSV for bulk predictions.
+   * Analytics & Insights Explore feature importance & model comparison.
+   * AI Assistant Ask questions and request plots.
 
  **Dataset Requirements (for Batch Prediction & AI Assistant)**:
 
@@ -124,10 +124,3 @@ http://localhost:8501
 * Decision Tree: 0.91 accuracy
 * SVM: 0.90 accuracy
 * Logistic Regression: 0.89 accuracy
-
-##  Future Improvements
-
-* Integrate **real IoT sensor data streams** (MQTT/Kafka).
-* Deploy on **cloud platforms** (AWS/GCP/Azure).
-* Add **deep learning models** for anomaly detection.
-* Enhance **AI assistant with multimodal support** (voice + text).
