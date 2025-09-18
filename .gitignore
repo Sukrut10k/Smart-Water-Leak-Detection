@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Model files (optional - if they are large, don’t push them)
+*.pkl
+
+# VSCode / IDE
+.vscode/
+.idea/
